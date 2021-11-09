@@ -120,7 +120,7 @@ compose:$current-version"
 
 这个依赖已经被添加到你的启动项目中，但当你做新项目时，请记住它，因为它与其他Jetpack Compose依赖有不同的版本。
 
-一旦你熟悉了文件组织，就可以建立并运行该应用程序。你会看到这个屏幕。
+一旦你熟悉了文件组织，就可以构建(build)并运行(run)该应用程序。你会看到这个屏幕。
 
 ![img](./README.assets/wpsaVAAvj.png)
 
@@ -468,7 +468,7 @@ private fun AppDrawerBody(closeDrawerAction: () -> Unit) {
 
 
 
-建立并运行该应用程序，然后再次打开应用程序抽屉。
+构建(build)并运行(run)该应用程序，然后再次打开应用程序抽屉。
 
 ![img](./README.assets/wpsH42NNv.png)
 
@@ -564,7 +564,7 @@ R.string.change_theme),
 
 主题图标也遵循同样的原则，只是它被限制在父节点的底部和末端。另外，对于主题图标，你添加了一个onClick动作，通过调用changeTheme()来改变主题。这个函数是在启动项目中为你预先建立的。
 
-建立并运行该应用程序，然后打开抽屉。
+构建(build)并运行(run)该应用程序，然后打开抽屉。
 
 ![img](./README.assets/wpsmqM4ZN.png)
 

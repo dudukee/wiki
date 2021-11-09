@@ -217,7 +217,7 @@ R.string.subreddits),
 
 3. onJoinButtonClick改为Header()。
 
-非常好!现在，建立并运行该应用程序。检查你的帖子看起来如何。
+非常好!现在，构建(build)并运行(run)该应用程序。检查你的帖子看起来如何。
 
 ![img](./README.assets/wpsQ1BlfR.png)
 
@@ -260,7 +260,7 @@ import androidx.compose.animation.animateColorAsState
 
 animate*AsState()函数是 Compose 中最简单的动画 API，用于制作单个值的动画。你只需提供结束值（或目标值），API就会从当前值开始动画化到指定值。
 
-现在建立并运行该应用程序。点击应用程序中的任何JoinButton，注意背景颜色的变化。
+现在构建(build)并运行(run)该应用程序。点击应用程序中的任何JoinButton，注意背景颜色的变化。
 
 ![img](./README.assets/wpsFA4lZg.png)
 
@@ -788,7 +788,7 @@ import androidx.compose.animation.ExperimentalAnimationApi
 
 ```
 
-芜湖                !现在，建立并运行该应用程序。点击任何JoinButton，观察吐司的进入和退出动画。
+芜湖                !现在，构建(build)并运行(run)该应用程序。点击任何JoinButton，观察吐司的进入和退出动画。
 
 ![img](./README.assets/wps6FAju7.png)
 

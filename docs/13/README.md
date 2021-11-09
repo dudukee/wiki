@@ -169,7 +169,7 @@ ComposeView要求它所连接的窗口包含一个
 
 ViewTreeLifecycleOwner。这个LifecycleOwner会在主机生命周期被销毁时处置底层的组合。这允许你反复附加和分离视图，同时保留组合。
 
-建立并运行该应用程序。打开聊天界面，看看你的新按钮。该按钮的外观和行为与旧的一样。
+构建(build)并运行(run)该应用程序。打开聊天界面，看看你的新按钮。该按钮的外观和行为与旧的一样。
 
 ![img](./README.assets/wpslKH56y.png)
 
@@ -514,7 +514,7 @@ post = post,
 
 好样的!:]
 
-建立并运行该应用程序，并在主屏幕的顶部查看你看中的趋势主题组件。
+构建(build)并运行(run)该应用程序，并在主屏幕的顶部查看你看中的趋势主题组件。
 
 ![img](./README.assets/wpsPoKeGH.png)
 

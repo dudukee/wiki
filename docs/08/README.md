@@ -91,7 +91,7 @@ import androidx.compose.material.Scaffold
 
 
 
-建立并运行。你会注意到，其行为与以前一样。
+构建(build)并运行(run)。你会注意到，其行为与以前一样。
 
 ![img](./README.assets/wpsfRKxki.jpg) 
 
@@ -340,7 +340,7 @@ FloatingActionButton()还暴露了一些参数，但你只用了你需要的。�
 
 MaterialTheme.colors.background作为contentColor。
 
-如果你不添加这些导入，Android Studio会抱怨。
+如果你不添加这些导入，Android Studio会提示警告。
 
 ```kotlin
 import androidx.compose.material.*
@@ -487,7 +487,7 @@ import com.raywenderlich.android.jetnotes.routing.Screen
 
 通过更新该状态，你触发了MainActivityScreen()的重新组合。这将从组合树中移除NotesScreen，而增加SaveNotesScreen。
 
-优秀!建立并运行你的应用程序。点击注释屏幕中的FAB，看看会发生什么。
+优秀!构建(build)并运行(run)你的应用程序。点击注释屏幕中的FAB，看看会发生什么。
 
 你会看到 "保存笔记 "屏幕打开......但它是空的。不要担心，你将在下面的章节中为该屏幕添加内容。
 
@@ -1185,7 +1185,7 @@ Scaffold(
 
 你在这里所做的就是用SaveNoteContent()填充内容。这个组合式将显示所有笔记的细节和数据，同时让你改变它来更新一个笔记，或者填入它来创建一个新的笔记。
 
-太棒了!建立并运行你的应用程序。
+太棒了!构建(build)并运行(run)你的应用程序。
 
 ![img](./README.assets/wpsCA0lZN.png)
 
@@ -1260,7 +1260,7 @@ BottomDrawer()是一个Material Design的组合，允许你指定一个固定在
 
 SaveNoteContent()的内容。这个抽屉的状态管理原则类似于你在NotesScreen()中对AppDrawer()的实现。
 
-建立并运行该应用程序。打开Save Note，从屏幕底部向上滑动，或点击顶部栏的颜色选择器图标。
+构建(build)并运行(run)该应用程序。打开Save Note，从屏幕底部向上滑动，或点击顶部栏的颜色选择器图标。
 
 ![img](./README.assets/wpsYqOzfy.png)
 
@@ -1351,7 +1351,7 @@ import androidx.compose.runtime.saveable.rememberSaveable
 
 
 
-建立并运行该应用程序。打开任何笔记并将其移至垃圾桶，即可看到你的警报对话框。
+构建(build)并运行(run)该应用程序。打开任何笔记并将其移至垃圾桶，即可看到你的警报对话框。
 
 ![img](./README.assets/wpsIU8mfK.png)
 
@@ -1584,7 +1584,7 @@ import androidx.compose.ui.graphics.Color
 
 
 
-建立并运行该应用程序。打开导航抽屉，打开黑暗主题。
+构建(build)并运行(run)该应用程序。打开导航抽屉，打开黑暗主题。
 
 ![img](./README.assets/wpsSaPcT5.png)
 

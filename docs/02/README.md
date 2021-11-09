@@ -108,7 +108,7 @@ setContent()里面的另一个参数是CompositionContext，它是对父组合�
 
 • MainActivity.kt。包含setContent()调用，设置第一个可组合的函数，并作为一个根UI组件。
 
-一旦你熟悉了文件组织，就可以建立并运行该应用程序。你会看到一个有基本导航的屏幕，如下图所示。
+一旦你熟悉了文件组织，就可以构建(build)并运行(run)该应用程序。你会看到一个有基本导航的屏幕，如下图所示。
 
 ![img](./README.assets/wpsRh1dNw.png)
 
@@ -183,7 +183,7 @@ Compose有一个非常简洁和易于使用的方法，可以将strings, drawabl
 
 幸运的是，有许多可组合的函数可以让你检索到不同类型的资源。在这种情况下，你将使用stringResource()，它接收你想要加载的字符串资源的ID。
 
-建立并运行该应用程序。然后在主屏幕上，点击文本按钮。你应该看到以下屏幕。
+构建(build)并运行(run)该应用程序。然后在主屏幕上，点击文本按钮。你应该看到以下屏幕。
 
 ![img](./README.assets/wpsAWExFp.png)
 
@@ -457,7 +457,7 @@ OutlinedTextField只是一个样式化的TextField，因为它使用一个特殊
 
 最后一个变化是将键盘类型改为键盘类型.Email。要做到这一点，你要使用KeyboardOptions.Default的实例，并以所需的键盘类型制作一个新的对象副本。这将打开一个键盘，使其在TextField处于焦点时更容易书写电子邮件域。
 
-建立并运行你的应用程序来测试你的新的电子邮件输入。TextField屏幕将看起来像这样。
+构建(build)并运行(run)你的应用程序来测试你的新的电子邮件输入。TextField屏幕将看起来像这样。
 
 ![img](./README.assets/wps74OXFn.png)
 
@@ -546,7 +546,7 @@ fun MyButton() {
 
 最后，你添加一个Text()作为按钮的内容，就像你上面学到的那样，并将文本颜色设置为Color.White。颜色组件是Compose框架的另一部分，它定义了常用的颜色，如白色、黑色、灰色等等。
 
-现在，建立并运行该应用程序，并打开按钮屏幕。
+现在，构建(build)并运行(run)该应用程序，并打开按钮屏幕。
 
 ![img](./README.assets/wpsm6h3Yf.png)
 

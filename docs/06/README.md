@@ -675,7 +675,7 @@ TextStyle()是一个文本的样式配置。它暴露了不同的参数，如fon
 
 在第8章，"将Material Design应用于Compose "中，你会看到如何使用Jetpack Compose中提供的Material组件来轻松完成同样的结果。但是现在，注意到你可以用基本的组件来完成同样的事情是很好的。
 
-建立并运行该应用程序。现在的注释看起来像这样。
+构建(build)并运行(run)该应用程序。现在的注释看起来像这样。
 
 ![img](./README.assets/wpsTuQPYX.png)
 
