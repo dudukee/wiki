@@ -1,4 +1,4 @@
-# 第八章：将Material Design应用于Compose
+# 第8章：将Material Design应用于Compose
 
 干得好!你已经到了本节的最后一章。在你迄今为止的旅程中，你已经了解了 Compose 中的基本合成物，以及如何在一个真正的应用程序中组合、设计和使用它们，而且你还必须管理状态。
 
